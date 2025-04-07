@@ -1,4 +1,3 @@
-import { conversoes } from './conversoes.js';
-
-console.log(conversoes('km', 2));          
-console.log(conversoes('centimetros', 10)); 
+const conversoes = require('/func.js')
+//comentarios para explicar como a funçao funciona
+module.exports = conversoes
